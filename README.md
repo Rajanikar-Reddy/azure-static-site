@@ -1,5 +1,3 @@
 # Azure Static Site
-branch test
-line from main directly
-line from conflict-test branch
 
+A static website deployed to Azure Blob Storage via Azure CLI, with a deploy script (`deploy.sh`) that provisions the resource group, storage account, and static website hosting end-to-end.
