@@ -10,7 +10,7 @@ Rebuilding the original static site deploy, but using everything learned since t
 5. Tear down cleanly, cost hygiene check.
 
 ## Status
-**Completed 2026-09-18.** Full real run:
+**Executed once, 2026-09-18, with heavy step-by-step guidance — NOT yet retained, NOT to be treated as "learned."** When asked to recall the sequence unaided immediately afterward, could only produce "we created a site and took it down." Real run details below happened, but reproducing this independently is the actual bar, not yet met:
 - Created `securesite736378` (Standard_LRS, northeurope).
 - Enabled static website hosting.
 - Granted own account `Storage Blob Data Contributor` via a real `az role assignment create` — assembled from a resource ID looked up with `--query id`, not hand-typed from memory.
